@@ -1,0 +1,47 @@
+:root {
+  --page-color: #1B1B1B;
+  --text-color: #FFFFFF;
+}
+
+html {
+    text-align: center;
+    background-color: var(--page-color);
+    color: var(--text-color);
+}
+
+.link-display {
+    display: inline-block;
+    box-sizing: padding-box;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link div {
+    border: 2px solid var(--text-color);
+    width: 50vw;
+    height: max-content;
+    min-width: min-content;
+    padding: 8px;
+    max-width: 540px;
+    color: var(--text-color);
+    font-size: large;
+}
+
+.soon div {
+    opacity: 75%;
+}
+
+hr {
+    visibility: hidden;
+}
+
+.site-logo {
+    width: 50vw;
+    max-width: 540px;
+}
+
+.link:hover div {
+    opacity: 75%;
+}
