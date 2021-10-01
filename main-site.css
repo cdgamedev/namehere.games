@@ -14,19 +14,17 @@ html {
     box-sizing: padding-box;
 }
 
-.link {
-    text-decoration: none;
-}
-
 .link div {
     border: 2px solid var(--text-color);
-    width: 50vw;
     height: max-content;
     min-width: min-content;
     padding: 8px;
-    max-width: 540px;
     color: var(--text-color);
     font-size: large;
+}
+
+.link {
+    text-decoration: none;
 }
 
 .soon div {
@@ -44,4 +42,12 @@ hr {
 
 .link:hover div {
     opacity: 75%;
+}
+
+@media only screen
+and (orientation: portrait) {
+    .site-logo {
+        width: 100%;
+        max-width: 100%;
+    }
 }
