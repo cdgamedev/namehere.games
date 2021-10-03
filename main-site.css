@@ -8,6 +8,7 @@ html {
     background-color: var(--page-color);
     color: var(--text-color);
     font-family: 'Fira Code', monospace;
+    font-size: large;
 }
 
 .link-display {
@@ -21,7 +22,6 @@ html {
     min-width: min-content;
     padding: 8px;
     color: var(--text-color);
-    font-size: large;
 }
 
 .link {
@@ -47,6 +47,10 @@ hr {
 
 @media only screen
 and (orientation: portrait) {
+    html {
+        font-size: xx-large;
+    }
+
     .site-logo {
         width: 100%;
         max-width: 100%;
