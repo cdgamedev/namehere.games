@@ -11,9 +11,27 @@ html {
     font-size: large;
 }
 
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    box-sizing: padding-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .link-display {
     display: inline-block;
     box-sizing: padding-box;
+    width: 100%;
+    max-width: 540px;
 }
 
 .link div {
@@ -37,9 +55,12 @@ hr {
 }
 
 .site-logo {
-    width: 50vw;
+    width: 100%;
     max-width: 540px;
-    box-sizing: padding-box;
+}
+
+footer {
+    margin-top: auto;
 }
 
 .link:hover div {
@@ -52,8 +73,14 @@ and (orientation: portrait) {
         font-size: xx-large;
     }
 
-    .site-logo {
+    .site-logo, .link-display {
         width: 100%;
         max-width: 100%;
     }
+    
+    .container {
+        width: 100vw;
+        max-width: 100%;
+    }
+
 }
