@@ -77,7 +77,12 @@ hr {
 }
 
 footer {
-    margin-top: auto;
+    margin-top: 32px;
+}
+
+footer a {
+    color: var(--text-color);
+    text-decoration: none;
 }
 
 .profile {
@@ -116,7 +121,7 @@ footer {
     width: 200px;
 }
 
-.link:hover div, .social-links a:hover {
+.link:hover div, .social-links a:hover, footer a:hover {
     opacity: 75%;
 }
 
