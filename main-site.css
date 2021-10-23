@@ -18,6 +18,8 @@ body {
 }
 
 .container {
+    width: 100vw;
+    max-width: 100%;
     height: 100%;
     display: flex;
     box-sizing: padding-box;
@@ -85,6 +87,17 @@ footer a {
     text-decoration: none;
 }
 
+.profile-container {
+    width: 100%;
+    max-width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+}
+
 .profile {
     display: flex;
     flex-direction: row;
@@ -97,7 +110,7 @@ footer a {
     margin-top: 1vh;
 }
 
-.profile:nth-child(odd) {
+.profile-container:nth-child(odd) .profile {
     flex-direction: row-reverse;
 }
 
@@ -131,7 +144,7 @@ and (orientation: portrait) {
         font-size: large;
     }
 
-    .profile, .profile:nth-child(odd) {
+    .profile, .profile-container:nth-child(odd) .profile {
         flex-direction: column;
     }
 
