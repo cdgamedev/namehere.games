@@ -92,7 +92,7 @@ footer {
     margin: 1vh 0;
 }
 
-.profile.reversed {
+.profile:nth-child(odd) {
     flex-direction: row-reverse;
 }
 
@@ -116,7 +116,7 @@ footer {
     width: 200px;
 }
 
-.link:hover div {
+.link:hover div, .social-links a:hover {
     opacity: 75%;
 }
 
@@ -126,7 +126,7 @@ and (orientation: portrait) {
         font-size: xx-large;
     }
 
-    .profile, .profile.reversed {
+    .profile, .profile:nth-child(odd) {
         flex-direction: column;
     }
 
