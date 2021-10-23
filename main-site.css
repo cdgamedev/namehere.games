@@ -13,7 +13,7 @@ html {
 
 body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     margin: 0;
 }
 
@@ -23,7 +23,7 @@ body {
     box-sizing: padding-box;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
 }
 
@@ -40,6 +40,14 @@ body {
     min-width: min-content;
     padding: 8px;
     color: var(--text-color);
+}
+
+.social-links a {
+    height: max-content;
+    min-width: min-content;
+    margin: 16px;
+    color: var(--text-color);
+    font-size: xx-large;
 }
 
 .link {
@@ -63,6 +71,38 @@ footer {
     margin-top: auto;
 }
 
+.profile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    max-width: 50%;
+    width: 100%;
+    margin: 1vh 0;
+}
+
+.profile h3, .profile p {
+    margin: 0;
+    font-size: large;
+}
+
+.profile div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+.profile img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
+
 .link:hover div {
     opacity: 75%;
 }
@@ -73,7 +113,7 @@ and (orientation: portrait) {
         font-size: xx-large;
     }
 
-    .site-logo, .link-display {
+    .site-logo, .link-display, .profile {
         width: 100%;
         max-width: 100%;
     }
@@ -82,5 +122,4 @@ and (orientation: portrait) {
         width: 100vw;
         max-width: 100%;
     }
-
 }
