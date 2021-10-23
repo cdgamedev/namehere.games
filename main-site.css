@@ -99,8 +99,8 @@ footer {
 
 .profile img {
     object-fit: cover;
-    height: 200px;
-    width: 200px;
+    height: 10vw;
+    width: 10vw;
 }
 
 .link:hover div {
