@@ -84,7 +84,6 @@ footer {
 
 footer a {
     color: var(--text-color);
-    text-decoration: none;
 }
 
 .profile-container {
