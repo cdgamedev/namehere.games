@@ -66,7 +66,7 @@ body {
 }
 
 .soon div {
-    opacity: 75%;
+    opacity: 0.75;
 }
 
 hr {
@@ -134,7 +134,7 @@ footer a {
 }
 
 .link:hover div, .social-links a:hover, footer a:hover {
-    opacity: 75%;
+    opacity: 0.75;
 }
 
 @media only screen
