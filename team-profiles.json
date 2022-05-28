@@ -1,0 +1,259 @@
+{
+    "profiles": [
+        {"key": "anna-forsythova",
+        "forename": "Anna",
+        "surname": "Forsythova",
+        "pronouns": "she/her",
+        "bio": "Anna is one of our artists, studying Game Art at Falmouth University.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "egg-christopher",
+        "forename": "Egg",
+        "surname": "Christopher",
+        "pronouns": "she/they",
+        "bio": "Egg is one of our designers, studying Game Development: Design at Falmouth University.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "ember-creber",
+        "forename": "Ember",
+        "surname": "Creber",
+        "pronouns": "she/they",
+        "bio": "Designer.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "eve-huke",
+        "forename": "Euke",
+        "surname": "Huke",
+        "pronouns": "she/her",
+        "bio": "Animator.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "harry-crowe",
+        "forename": "Harry",
+        "surname": "Crowe",
+        "pronouns": "he/him",
+        "bio": "Artist.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "hayley-davies",
+        "forename": "Hayley",
+        "surname": "Davies",
+        "pronouns": "she/they",
+        "bio": "Hayley is one of our few programmers, studying Game Development: Programming at Falmouth University.<br>She is primarily focused on Gameplay and Tools programming within the team and is a wizard with git, aiding in the overall team usage of git and git flow to effectively manage our projects.<br>They are also our social media manager, marketing our team on Twitter and developing this site from scratch.<br>Hayley streams occasionally, mainly playing games but also making them too.<br>",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "cdgamedev",
+            "Itch.io": "cdgamedev.itch.io",
+            "Instagram": "",
+            "LinkedIn": "cdgamedev",
+            "Steam": "",
+            "Twitch": "cdgamedev",
+            "Twitter": "cdgamedev",
+            "Website": "https://hayleydavi.es",
+            "YouTube": "c/cdgamedev"
+            }
+        },
+        {"key": "jay-dixon",
+        "forename": "Jay",
+        "surname": "Dixon",
+        "pronouns": "he/him",
+        "bio": "As one of the Game Artists for our team, Jay helps to provide any concept art, character models or assets for the game.<br>In their free time, Jay enjoys live streaming a variety of games over on Twitch.This variety ranges from survival-based games to story-based ones.<br>Furthermore, Jay's all-time favourite game is The Last of Us, and they hope that one day they can work on a game that has as much, or even more of an impact on those who play it.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "ph0mentix",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "Phomentix",
+            "Twitter": "Phomentix",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "josh-thompson",
+        "forename": "Josh",
+        "surname": "Thompson",
+        "pronouns": "he/him",
+        "bio": "Josh is one of the few programmers in our team.He loves being faced with programming challenges and will code until 4am if not told otherwise.<br>He has previosuly released his own indie game titled \"Cowboys n' Stuff\" on Steam!",
+        "socials": {
+            "ArtStation": "",
+            "Email": "stickmrjosh@outlook.com",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "joshua-thompson-088a9b223",
+            "Steam": "Josh Games",
+            "Twitch": "noirfhoenix",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": "channel/UCBj3Tk92JAV8sYzKatCZfow"
+            }
+        },
+        {"key": "oliver-gisborne",
+        "forename": "Oliver",
+        "surname": "Gisborne",
+        "pronouns": "he/him",
+        "bio": "Oliver is one of our 6 artists for the team, studying Game Art at Falmouth University.<br>He occasionally plays games when he isn't doing arty things, with a primary focus on playing Dungeons and Dragons.",
+        "socials": {
+            "ArtStation": "olivergisborne",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "sophie-james",
+        "forename": "Sophie",
+        "surname": "James",
+        "pronouns": "she/her",
+        "bio": "Sophie is one of our 6 artists for the team, studying Game Art at Falmouth University.",
+        "socials": {
+            "ArtStation": "ashuuki",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "ashuuki",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "noodlecult",
+            "Twitter": "ashuuki",
+            "Website": "",
+            "YouTube": ""
+            }
+        },
+        {"key": "zach-ashenford-lander",
+        "forename": "Zach",
+        "surname": "Ashenford-Lander",
+        "pronouns": "he/him",
+        "bio": "Artist.",
+        "socials": {
+            "ArtStation": "",
+            "Email": "",
+            "GitHub": "",
+            "Itch.io": "",
+            "Instagram": "",
+            "LinkedIn": "",
+            "Steam": "",
+            "Twitch": "",
+            "Twitter": "",
+            "Website": "",
+            "YouTube": ""
+            }
+        }
+    ],
+    "sites": {
+        "ArtStation": {
+            "URL": "https://artstation.com/",
+            "icon": "fab fa-artstation"
+        },
+        "Email": {
+            "URL": "mailto://",
+            "icon": "far fa-envelope"
+        },
+        "GitHub": {
+            "URL": "https://github.com",
+            "icon": "fab fa-github"
+        },
+        "Itch.io": {
+            "URL": "https://",
+            "icon": "fab fa-itch-io"
+        },
+        "Instagram": {
+            "URL": "https://instagram.com/",
+            "icon": "fab fa-instagram"
+        },
+        "LinkedIn": {
+            "URL": "https://linkedin.com/in/",
+            "icon": "fab fa-linkedin"
+        },
+        "Steam": {
+            "URL": "https://store.steampowered.com/search/?developer=",
+            "icon": "fab fa-steam"
+        },
+        "Twitch": {
+            "URL": "https://twitch.tv/",
+            "icon": "fab fa-twitch"
+        },
+        "Twitter": {
+            "URL": "mailto://",
+            "icon": "fab fa-twitter"
+        },
+        "Website": {
+            "URL": "https://",
+            "icon": "fas fa-globe"
+        },
+        "YouTube": {
+            "URL": "https://youtube.com/",
+            "icon": "fab fa-youtube"
+        }
+    }
+}
