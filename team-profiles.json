@@ -1,6 +1,7 @@
 {
     "profiles": [
         {"key": "anna-forsythova",
+        "role": "Artist",
         "forename": "Anna",
         "surname": "Forsythova",
         "pronouns": "she/her",
@@ -20,6 +21,7 @@
             }
         },
         {"key": "egg-christopher",
+        "role": "Designer",
         "forename": "Egg",
         "surname": "Christopher",
         "pronouns": "she/they",
@@ -28,7 +30,7 @@
             "ArtStation": "",
             "Email": "",
             "GitHub": "",
-            "Itch.io": "",
+            "Itch.io": "eggicalgirl",
             "Instagram": "",
             "LinkedIn": "",
             "Steam": "",
@@ -39,6 +41,7 @@
             }
         },
         {"key": "ember-creber",
+        "role": "Designer",
         "forename": "Ember",
         "surname": "Creber",
         "pronouns": "she/they",
@@ -58,6 +61,7 @@
             }
         },
         {"key": "eve-huke",
+        "role": "Animator",
         "forename": "Euke",
         "surname": "Huke",
         "pronouns": "she/her",
@@ -77,6 +81,7 @@
             }
         },
         {"key": "harry-crowe",
+        "role": "Artist",
         "forename": "Harry",
         "surname": "Crowe",
         "pronouns": "he/him",
@@ -96,6 +101,7 @@
             }
         },
         {"key": "hayley-davies",
+        "role": "Programmer",
         "forename": "Hayley",
         "surname": "Davies",
         "pronouns": "she/they",
@@ -104,17 +110,18 @@
             "ArtStation": "",
             "Email": "",
             "GitHub": "cdgamedev",
-            "Itch.io": "cdgamedev.itch.io",
+            "Itch.io": "cdgamedev",
             "Instagram": "",
             "LinkedIn": "cdgamedev",
             "Steam": "",
             "Twitch": "cdgamedev",
             "Twitter": "cdgamedev",
-            "Website": "https://hayleydavi.es",
+            "Website": "hayleydavi.es",
             "YouTube": "c/cdgamedev"
             }
         },
         {"key": "jay-dixon",
+        "role": "Artist",
         "forename": "Jay",
         "surname": "Dixon",
         "pronouns": "he/him",
@@ -123,7 +130,7 @@
             "ArtStation": "",
             "Email": "",
             "GitHub": "",
-            "Itch.io": "",
+            "Itch.io": "phomentix",
             "Instagram": "ph0mentix",
             "LinkedIn": "",
             "Steam": "",
@@ -134,6 +141,7 @@
             }
         },
         {"key": "josh-thompson",
+        "role": "Programmer",
         "forename": "Josh",
         "surname": "Thompson",
         "pronouns": "he/him",
@@ -142,7 +150,7 @@
             "ArtStation": "",
             "Email": "stickmrjosh@outlook.com",
             "GitHub": "",
-            "Itch.io": "",
+            "Itch.io": "joshtgames",
             "Instagram": "",
             "LinkedIn": "joshua-thompson-088a9b223",
             "Steam": "Josh Games",
@@ -153,6 +161,7 @@
             }
         },
         {"key": "oliver-gisborne",
+        "role": "Artist",
         "forename": "Oliver",
         "surname": "Gisborne",
         "pronouns": "he/him",
@@ -172,6 +181,7 @@
             }
         },
         {"key": "sophie-james",
+        "role": "Artist",
         "forename": "Sophie",
         "surname": "James",
         "pronouns": "she/her",
@@ -180,7 +190,7 @@
             "ArtStation": "ashuuki",
             "Email": "",
             "GitHub": "",
-            "Itch.io": "",
+            "Itch.io": "noodlecult",
             "Instagram": "ashuuki",
             "LinkedIn": "",
             "Steam": "",
@@ -190,9 +200,10 @@
             "YouTube": ""
             }
         },
-        {"key": "zach-ashenford-lander",
+        {"key": "zach-ashenford",
+        "role": "Artist",
         "forename": "Zach",
-        "surname": "Ashenford-Lander",
+        "surname": "Ashenford",
         "pronouns": "he/him",
         "bio": "Artist.",
         "socials": {
@@ -212,47 +223,47 @@
     ],
     "sites": {
         "ArtStation": {
-            "URL": "https://artstation.com/",
+            "URL": "https://artstation.com/[USERNAME]",
             "icon": "fab fa-artstation"
         },
         "Email": {
-            "URL": "mailto://",
+            "URL": "mailto://[USERNAME]",
             "icon": "far fa-envelope"
         },
         "GitHub": {
-            "URL": "https://github.com",
+            "URL": "https://github.com/[USERNAME]",
             "icon": "fab fa-github"
         },
         "Itch.io": {
-            "URL": "https://",
+            "URL": "https://[USERNAME].itch.io",
             "icon": "fab fa-itch-io"
         },
         "Instagram": {
-            "URL": "https://instagram.com/",
+            "URL": "https://instagram.com/[USERNAME]",
             "icon": "fab fa-instagram"
         },
         "LinkedIn": {
-            "URL": "https://linkedin.com/in/",
+            "URL": "https://linkedin.com/in/[USERNAME]",
             "icon": "fab fa-linkedin"
         },
         "Steam": {
-            "URL": "https://store.steampowered.com/search/?developer=",
+            "URL": "https://store.steampowered.com/search/?developer=[USERNAME]",
             "icon": "fab fa-steam"
         },
         "Twitch": {
-            "URL": "https://twitch.tv/",
+            "URL": "https://twitch.tv/[USERNAME]",
             "icon": "fab fa-twitch"
         },
         "Twitter": {
-            "URL": "mailto://",
+            "URL": "https://twitter.com/[USERNAME]",
             "icon": "fab fa-twitter"
         },
         "Website": {
-            "URL": "https://",
+            "URL": "https://[USERNAME]",
             "icon": "fas fa-globe"
         },
         "YouTube": {
-            "URL": "https://youtube.com/",
+            "URL": "https://youtube.com/[USERNAME]",
             "icon": "fab fa-youtube"
         }
     }

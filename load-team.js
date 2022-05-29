@@ -21,23 +21,17 @@ async function parseTeamMembers(json) {
         let p = profiles[i];
         let name = `${p.forename} ${p.surname}`;
         let profile = `
-<div class="profile-container" id="${p.key}">
-    <div class="profile">
-        <div class="info">
-            <h3>${name}</h3>
-            <p>(${p.pronouns})</p>
-            <img src="./team-images/${p.key}.png" alt="${name} Profile Image">
-        </div>
-        <div class="bio">
-            <p>
-                ${p.bio}
-            </p>
-        </div>
+<div class="profile" id="${p.key}">
+    <div class="info">
+        <h3>${name}</h3>
+        <p>(${p.pronouns})</p>
+        <img src="./img/team/${p.key}.png" alt="${name} Profile Image">
+        <p>${p.role}</p>
+        <span class="social-links">
+            ${getSocials(p)}
+        </span>
     </div>
-    <span class="social-links">
-    ${getSocials(p)}
-    </span>
-</div> 
+</div>
         `
         // add the profile to the element
         element.innerHTML += profile;
@@ -69,9 +63,13 @@ function generateSocialLink(site, name, username) {
         return "";
     }
 
+    // get the url of the user's page - by replacing the substring '[USERNAME]'
+    let URL = sites[site].URL;
+    URL = URL.replace('[USERNAME]', username);
+    
     // create the element for the social link
     let html = `
-<a href="${sites[site].URL}${username}">
+<a href="${URL}">
     <i class="${sites[site].icon}" title="${name}'s ${site}"></i>
 </a>
 `
