@@ -195,17 +195,6 @@ footer a {
     opacity: 80%;
 }
 
-#revue-embed {
-    border-radius: 10px;
-    background: #231f20;
-    padding: 5px;
-    margin: 0;
-}
-
-#revue-embed p {
-    margin-top: 0;
-}
-
 @media only screen
 and (orientation: portrait) {
     html {
