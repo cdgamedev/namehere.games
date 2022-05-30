@@ -3,6 +3,7 @@ element.innerHTML = "Either the RSS URL is broken, or there are no published dev
 
 const RSS_URL = `./devlog.rss`;
 const re = new RegExp(`https:\/\/img.itch.zone\/(.*)" `);
+const MAX_DEVLOGS_TO_SHOW = 10;
 
 fetch(`./devlog.rss`)
     .then(response => response.text())
@@ -12,19 +13,28 @@ fetch(`./devlog.rss`)
 function parseRSS(data) {
     const items = data.querySelectorAll("item");
     let html = ``;
-    items.forEach(el => {
+    let devlogsToShow = items.length;
+    if (devlogsToShow > MAX_DEVLOGS_TO_SHOW) {
+        devlogsToShow = MAX_DEVLOGS_TO_SHOW;
+    }
+
+    for(let i = 0; i < devlogsToShow; i++) {
+        let el = items[i];
         let description = re.exec(el.querySelector("description").innerHTML);
         let imageURL = description[0].replace(`" `, "");
+
         html += `
         <article>
-          <img src="${imageURL}" alt="">
-          <h2>
             <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
-              ${el.querySelector("title").innerHTML}
+                <div>
+                    <img src="${imageURL}" alt=""><h2>${el.querySelector("title").innerHTML}</h2>
+                </div>
             </a>
-          </h2>
         </article>
         `;
+    }
+    items.forEach(el => {
+        
     });
     document.getElementById("devlogs").innerHTML = html;
 }

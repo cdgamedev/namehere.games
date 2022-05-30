@@ -181,7 +181,7 @@ footer a {
 	align-content: flex-start;
 }
 
-.screenshot-showcase img, .screenshot-showcase iframe {
+.screenshot-showcase img, .screenshot-showcase iframe, .devlog-showcase img {
     aspect-ratio: 16/9;
     object-fit: cover;
     margin: 8px;
@@ -193,6 +193,29 @@ footer a {
 
 .screenshot-showcase img:hover, .screenshot-showcase iframe:hover {
     opacity: 80%;
+}
+
+.devlog-showcase {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+    max-width: 1920px;
+}
+
+.devlog-showcase a:hover {
+    opacity: 80%;
+}
+
+.devlog-showcase img {
+    border-color: var(--page-color);
+}
+
+.devlog-showcase article {
+    margin: 8px;
+    max-width: 347px;
 }
 
 @media only screen
