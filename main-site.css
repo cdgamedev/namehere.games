@@ -174,7 +174,7 @@ footer a {
     opacity: 0.75;
 }
 
-.screenshot-showcase {
+.image-showcase {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -183,18 +183,28 @@ footer a {
 	align-content: flex-start;
 }
 
-.screenshot-showcase img, .screenshot-showcase iframe, .devlog-showcase img {
+.image-showcase img, .image-showcase iframe, .devlog-showcase img {
     aspect-ratio: 16/9;
     object-fit: cover;
     margin: 8px;
     border: 4px solid #bb4430;
     border-radius: 10px;
     max-width: 347px;
-    max-height: 195px;
 }
 
-.screenshot-showcase img:hover, .screenshot-showcase iframe:hover {
+.image-showcase img.selected {
+    border-color: red;
     opacity: 80%;
+}
+
+.image-showcase img:hover, .image-showcase iframe:hover {
+    opacity: 60%;
+}
+
+.image-showcase.large img, .image-showcase.large iframe {
+    aspect-ratio: 16/9;
+    max-width: 50vw;
+    width: 1920px;
 }
 
 .devlog-showcase {
