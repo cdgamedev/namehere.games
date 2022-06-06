@@ -207,6 +207,10 @@ footer a {
     width: 1920px;
 }
 
+.image-showcase.large img:hover, .image-showcase.large iframe:hover {
+    opacity: 100%;
+}
+
 .devlog-showcase {
 	display: flex;
 	flex-direction: row;
