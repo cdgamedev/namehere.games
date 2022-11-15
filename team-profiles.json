@@ -20,26 +20,6 @@
             "YouTube": ""
             }
         },
-        {"key": "egg-christopher",
-        "role": "Designer",
-        "forename": "Egg",
-        "surname": "Christopher",
-        "pronouns": "she/they",
-        "bio": "Egg is one of our designers, studying Game Development: Design at Falmouth University.",
-        "socials": {
-            "ArtStation": "",
-            "Email": "",
-            "GitHub": "",
-            "Itch.io": "eggicalgirl",
-            "Instagram": "",
-            "LinkedIn": "",
-            "Steam": "",
-            "Twitch": "",
-            "Twitter": "",
-            "Website": "",
-            "YouTube": ""
-            }
-        },
         {"key": "ember-creber",
         "role": "Designer",
         "forename": "Ember",
@@ -196,26 +176,6 @@
             "Steam": "",
             "Twitch": "noodlecult",
             "Twitter": "ashuuki",
-            "Website": "",
-            "YouTube": ""
-            }
-        },
-        {"key": "zach-ashenford",
-        "role": "Artist",
-        "forename": "Zach",
-        "surname": "Ashenford",
-        "pronouns": "he/him",
-        "bio": "Artist.",
-        "socials": {
-            "ArtStation": "",
-            "Email": "",
-            "GitHub": "",
-            "Itch.io": "",
-            "Instagram": "",
-            "LinkedIn": "",
-            "Steam": "",
-            "Twitch": "",
-            "Twitter": "",
             "Website": "",
             "YouTube": ""
             }
