@@ -2,7 +2,7 @@ element = document.getElementById("devlogs");
 element.innerHTML = "Hm, it seems the RSS URL hasn't been found.";
 
 const RSS_URL = `./devlog.rss`;
-const re = new RegExp(`https:\/\/img.itch.zone\/(.*)" `);
+const regex = new RegExp('"\\s*(https.{1,}\\.\\w{1,4})\\s*"', 'gm');
 const MAX_DEVLOGS_TO_SHOW = 10;
 
 fetch(RSS_URL)
@@ -15,7 +15,7 @@ function parseRSS(data) {
         return;
     }
 
-    const items = data.querySelectorAll("item");
+    let items = data.querySelectorAll("item");
     let html = ``;
     let devlogsToShow = items.length;
     if (devlogsToShow > MAX_DEVLOGS_TO_SHOW) {
@@ -29,27 +29,26 @@ function parseRSS(data) {
     }
 
     for(let i = 0; i < devlogsToShow; i++) {
-        let el = items[i];
-        let description = re.exec(el.querySelector("description").innerHTML);
+        let item = items[i];
+        let description = item.querySelector("description").innerHTML;
         let imageURL = "";
+        
         if (description == null) {
             imageURL = "./img/game/game-logo.png";
         } else {
-            imageURL = description[0].replace(`" `, "");
+            imageURL = description.match(regex)[0];
         }
 
         html += `
         <article>
-            <a href="${el.querySelector("link").innerHTML}" target="_blank" rel="noopener">
+            <a href="${item.querySelector("link").innerHTML}" target="_blank" rel="noopener">
                 <div>
-                    <img src="${imageURL}" alt=""><h2>${el.querySelector("title").innerHTML}</h2>
+                    <img src=${imageURL} alt=""><h2>${item.querySelector("title").innerHTML}</h2>
                 </div>
             </a>
         </article>
         `;
     }
-    items.forEach(el => {
-        
-    });
+    
     document.getElementById("devlogs").innerHTML = html;
 }
