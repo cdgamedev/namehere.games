@@ -1,11 +1,11 @@
 const developmentVideos = [
-    "BES0WkYXtyE"
+    
 ]
 
 var highlightedImageId = "";
 
 window.onload = function() {
-    createHightlightStrip("current-development", developmentVideos, './img/game/screenshot-', 5)
+    createHightlightStrip("current-development", developmentVideos, './img/game/gameplay-image-', 6)
 }
 
 function createHightlightStrip(parentId, youtubeVideos, imageBaseURL, numberOfImages) {
@@ -15,6 +15,8 @@ function createHightlightStrip(parentId, youtubeVideos, imageBaseURL, numberOfIm
     if (numberOfImages > 0) {
         createImages(parentId, imageBaseURL, numberOfImages);
     }
+
+    focusImage(parentId, 0);
 }
 
 function focusImage(parentId, imageIndex) {

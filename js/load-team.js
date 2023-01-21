@@ -1,5 +1,5 @@
 // get the team profile's json data
-fetch('./team-profiles.json')
+fetch('./json/team-profiles.json')
     .then(response => response.json())
     .then(json => parseTeamMembers(json));
 
