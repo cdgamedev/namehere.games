@@ -11,6 +11,11 @@ html {
     color: var(--text-color);
     font-family: 'Raleway', sans-serif;
     font-size: large;
+    scrollbar-width: none;
+}
+
+html::-webkit-scrollbar {
+    display: none;
 }
 
 body {
@@ -28,7 +33,6 @@ hr {
 }
 
 footer {
-    background-color: var(--page-color-odd);
     margin-bottom: 0;
 }
 
@@ -108,12 +112,6 @@ footer {
     object-fit: contain;
     aspect-ratio: 16/9;
     width: 1080px;
-    max-width: 100%;
-}
-
-.itch-embed {
-    width: 552px;
-    height: 167px;
     max-width: 100%;
 }
 

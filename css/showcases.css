@@ -1,3 +1,14 @@
+/* itch embed */
+.itch-embed {
+    width: 552px;
+    height: 167px;
+    max-width: 100%;
+}
+
+.itch-embed html {
+    color: #FFFFFF;
+}
+
 /* Image Showcases */
 .image-showcase {
     display: flex;
@@ -93,4 +104,17 @@
     cursor: pointer;
 }
 
-#intro-section {}
+#intro-section {
+    background-image: url("/img/game/game-logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro-section h1 {
+    font-size: 8em;
+}
+
+#intro-section h2 {
+    font-size: 2em;
+}
