@@ -40,12 +40,18 @@
 
 /* image & devlog showcases */
 .image-showcase img,
-.image-showcase>iframe,
-.devlog-showcase img {
+.image-showcase>iframe {
     aspect-ratio: 16/9;
     object-fit: cover;
     border-radius: 10px;
     max-width: 160px;
+}
+
+.devlog-showcase img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 10px;
+    max-width: 320px;
 }
 
 /* devlog showcases */
