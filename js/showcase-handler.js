@@ -62,16 +62,17 @@ function handleImage(image, elementId, showcaseId, largeImage) {
 
 function handleVideo(video, elementId, showcaseId, largeImage) {
     let container = createContainerElement();
-    let mediaElement = createMediaElement(elementId);
     let description = video["description"];
 
     elementId = video["url"];
-    mediaElement.src = `https://img.youtube.com/vi/${elementId}/0.jpg`;
-    mediaElement.onclick = function() { focusVideo(elementId, showcaseId, largeImage, description) };
+    container.onclick = function() { focusVideo(elementId, showcaseId, largeImage, description) };
 
     container.innerHTML = `
             <i class="fa-solid fa-circle fa-stack-lg stack-bottom"></i>
             <i class="fa-solid fa-circle-play fa-stack-lg stack-top"></i>`;
+    
+    let mediaElement = createMediaElement(elementId);
+    mediaElement.src = `https://img.youtube.com/vi/${elementId}/0.jpg`;
     container.appendChild(mediaElement);
 
     return container;
