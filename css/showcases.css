@@ -28,11 +28,13 @@
 
 .image-showcase.large {
     flex-direction: column;
+    width: 100%;
 }
 
 .image-showcase.large img,
 .image-showcase.large iframe {
     max-width: 1080px;
+    width: 100%;
     opacity: 100%;
 }
 
@@ -108,7 +110,6 @@
 #intro-section {
     background-image: url("/img/game/game-logo.png");
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 

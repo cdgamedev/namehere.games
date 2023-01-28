@@ -52,7 +52,6 @@ function handleImage(image, elementId, showcaseId, largeImage) {
     let container = createContainerElement();
     let mediaElement = createMediaElement(elementId);
     let description = image["description"];
-    console.log(image["description"]);
     mediaElement.src = image["url"];
     mediaElement.onclick = function() { focusImage(elementId, showcaseId, largeImage, description) };
 
@@ -84,7 +83,6 @@ function createMediaElement(elementId) {
 }
 
 function focusImage(elementId, showcaseId, largeImage, description) {
-    console.log(description);
     let highlightedImageId = largeImage.childNodes[0].id;
 
     if (highlightedImageId == elementId) {
